@@ -5,7 +5,7 @@ from huggingface_hub import HfApi
 api = HfApi()
 
 # Create a repository on the Hugging Face Hub
-repo_id = "hefajuddin/Rapunzel_Story_Gen"  # Format: <username>/<repo_name>
+repo_id = "hefajuddin/Rapunzel_Story_Gen_Llma"  # Format: <username>/<repo_name>
 api.create_repo(repo_id=repo_id, token="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")
 
 # Load the model and tokenizer (optional if already in memory)
