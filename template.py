@@ -6,15 +6,15 @@ listOfFiles=[
     f"src/pretrained_model.py",
     f"src/tokenized_model.py",
     f"src/collator.py",
-    f"train/trainer.py",
-    f"train/upload.py",
     f"data/context.py",
     f"data/dataset.py",
     f"templates/index.html",
     ".env",
     "config.py",
     "requirements.txt",
-    "app.py"
+    "app.py",
+    "trainer.py", 
+    "upload.py",
 ]
 
 for path in listOfFiles:
